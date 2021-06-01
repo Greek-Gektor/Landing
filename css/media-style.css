@@ -1,0 +1,366 @@
+@media (max-width: 1300px) {
+    .header-container {
+        /*max-width: 970px;*/
+        max-width: 90%;
+        /*padding: 0 15px;*/
+    }
+
+    .header-navigation {
+        display: none;
+    }
+
+    .header-button {
+        display: none;
+    }
+
+    .calculation {
+        width: 100%;
+        height: auto;
+        padding-bottom: 20%;
+        padding-top: 20%;
+    }
+
+    .calculation-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 0 20px 0 20px;
+
+    }
+
+    .calculation-title {
+        font-size: 23px;
+        line-height: 132.83%;
+    }
+
+    .calculation-subtitle {
+        font-size: 14px;
+        line-height: 135.84%;
+    }
+
+    .calculation-buttons {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .calculation-calculate {
+        margin-bottom: 26px;
+    }
+
+    .projects {
+    }
+
+    .projects-container {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .projects-list {
+        display: none;
+    }
+
+    .projects-list__items {
+    }
+
+    .projects-description {
+    }
+
+    .projects-text {
+    }
+
+    .projects-title {
+        font-size: 22px;
+        line-height: 138.6%;
+    }
+
+    .projects-paragraph {
+        margin-right: 0;
+        font-size: 11px;
+        line-height: 158.48%;
+    }
+
+    .projects-data {
+        margin: 0 auto;
+    }
+
+    .projects-data h3 {
+        font-size: 14px;
+        line-height: 138.6%;
+    }
+
+    .projects-data span {
+        font-size: 11px;
+        line-height: 135.84%;
+    }
+
+    .projects-data__items {
+    }
+
+    .projects-icons {
+        display: none;
+    }
+
+    .projects-image {
+        display: none;
+    }
+
+    .mobile-slider {
+        margin: 50px auto 0 auto;
+        max-width: 340px;
+        height: 242px;
+        position: relative;
+        display: block;
+    }
+
+    .mobile-slider-overlay {
+        width: 340px;
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        top: 45%;
+    }
+
+    .slider-overlay-icon-left {
+        margin-left: 5%;
+    }
+
+    .slider-overlay-icon-right {
+        margin-right: 5%;
+    }
+
+    .control-videoplayer {
+        max-width: 340px;
+        max-height: 208px;
+        background-size: cover;
+    }
+
+    .control-image__icon {
+        width: 20%;
+        top: 75px;
+    }
+
+    .control {
+        background-color: black;
+    }
+
+    .control-container {
+        background-color: black;
+    }
+
+    .control-paragraph {
+        font-size: 11px;
+        line-height: 169.8%;
+        color: #FFFFFF;
+        padding: 21px 18px 0;
+        width: 340px;
+        height: 107px;
+    }
+
+
+    .form-wrapper {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .control-form__button {
+        position: relative;
+        top: 100px;
+        width: 340px;
+    }
+
+    .control-checkbox {
+        position: relative;
+        bottom: 80px;
+    }
+
+    .form-label {
+        color: rgba(255, 255, 255, 0.5);
+        width: 340px;
+        margin: 0;
+    }
+
+    .form-label input {
+        background: black;
+        border: none;
+        outline: none;
+        border-bottom: solid 1px rgba(255, 255, 255, 1);
+    }
+
+    .form-label input::-webkit-input-placeholder {
+        color: white;
+    }
+
+    .phone {
+        margin-top: 63px;
+
+    }
+
+    .text {
+        color: white;
+    }
+
+    .control-container {
+        height: 500px;
+    }
+
+    .types-title{
+        margin-top: 60px;
+    }
+
+    .types-examples-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .types-container {
+        height: 2100px;
+    }
+
+    .types-img {
+        display: none;
+    }
+
+    .application-wrapper {
+        display: none;
+    }
+
+    .application-discount {
+        display: none;
+    }
+
+    .example1-img {
+        width: 340px;
+        height: 366px;
+    }
+
+    .example1-text {
+        margin-left: 0;
+    }
+
+    .example1-button {
+        margin-left: 0;
+    }
+
+    .example2-wrapper {
+        margin-top: 59px;
+    }
+
+    .example3-wrapper {
+        margin-top: 59px;
+    }
+
+    .fantasies{
+        display: none;
+    }
+    .fantasies-alt{
+        display: block;
+        height: 400px;
+
+    }
+    .fantasies-text-title{
+        font-size: 22px;
+        width: 300px;
+        height: 66px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .fantasies-slider {
+        margin: 50px auto 0 auto;
+        max-width: 340px;
+        height: 242px;
+        position: relative;
+        display: block;
+    }
+
+    .fantasies-slider-overlay {
+        width: 340px;
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        top: 45%;
+    }
+
+    .slider-overlay-icon-left {
+        margin-left: 5%;
+    }
+
+    .slider-overlay-icon-right {
+        margin-right: 5%;
+    }
+
+
+    .clients{
+        display: none;
+    }
+    .contact-overlay{
+        display: none;
+    }
+    .contact{
+        background: #181818;
+    }
+    .contact-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-form-title{
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .contact-form-wrapper{
+        width: 340px;
+        height: 500px;
+        margin: 0 auto;
+        order: 1;
+    }
+    .form-inputs-wrapper{
+        margin: 0 auto;
+        width: 340px;
+        /*flex-direction: column;*/
+    }
+    .form-inputs-name{
+        width: 340px;
+        height: 45px;
+        margin: 53px 0 0 0;
+
+    }
+    .form-inputs-phone{
+        width: 340px;
+        height: 45px;
+        margin:63px 0 0 0;
+    }
+    .form-inputs-question{
+        width: 340px;
+        height: 45px;
+        margin:63px 0 0 0;
+    }
+
+    .form-inputs-checkbox{
+        margin: 165px 0 0 0;
+    }
+
+    .contact-form-button{
+        width: 340px;
+    }
+    .contact-map-img{
+        width: 340px;
+        height: 255px;
+        order: 2;
+    }
+    .contact-title{
+        width: 340px;
+        order: 3;
+    }
+    .contact-icon-wrapper{
+        order: 4;
+        margin-top: 50px;
+    }
+
+
+}
