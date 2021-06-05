@@ -974,20 +974,22 @@ body {
 
 .contact-container {
     overflow: auto;
-    position: relative;
+    position: absolute;
     max-width: 1236px;
     margin: 0 auto;
     z-index: 999;
+    left: 15%;
+    top: -19%;
 }
 
 .contact-form-wrapper {
     position: relative;
     align-items: center;
-    margin: -100px auto 0px auto;
+    margin: 0 auto;
     width: 883px;
     height: 445px;
     background: #181818;
-    z-index: 9999;
+    z-index: 500;
 }
 
 .contact-form-title {
